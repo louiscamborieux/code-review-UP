@@ -82,7 +82,7 @@ export class Game {
 
   private isSecondRowFullWithSameSymbol() {
     return (
-      this._board.TileAt(1, 0)!.Symbol == this._board.TileAt(1, 1)!.Symbol &&
+      this._board.TileAt(1, 0)!.Symbol == this._board.TileAt(1, 1)!.Symbol && //test
       this._board.TileAt(1, 2)!.Symbol == this._board.TileAt(1, 1)!.Symbol
     );
   }
